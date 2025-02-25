@@ -13,7 +13,7 @@ ds = load_dataset("dvilasuero/finepersonas-v0.1-tiny", split="train").select(ran
 with Pipeline(name="image_generation_pipeline") as pipeline:
     igm = CustomOpenAIImageGeneration(
         model="black-forest-labs/FLUX.1-schnell",
-        api_key="ns_fb07d126ac1046d4ac7e542a1292926d",
+        api_key="",
         base_url="https://inference.api.nscale.com/v1",
     )
     print("checkpoint 1")
