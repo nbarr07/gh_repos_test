@@ -35,7 +35,7 @@ def generate_posts(num_posts=100):
         llm = OpenAILLM(
             model="meta-llama/Llama-3.1-8B-Instruct",
             base_url="https://inference.api.nscale.com/v1",
-            api_key="ns_fb07d126ac1046d4ac7e542a1292926d",
+            api_key="",
         )
 
         post_generator = SocialAI_PostsGenerator(
